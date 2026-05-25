@@ -5,16 +5,16 @@
         sessionStorage.setItem(REDIRECT_KEY, 'true');
         
         var adUrls = [
-            "https://linkads1.com",
-            "https://linkads2.com",
-            "https://linkads3.com",
-            "https://linkads4.com",
-            "https://linkads5.com",
-            "https://linkads6.com",
-            "https://linkads7.com",
-            "https://linkads8.com",
-            "https://linkads9.com",
-            "https://linkads10.com"
+            "https://www.google.com",
+            "https://www.youtube.com",
+            "https://www.facebook.com",
+            "https://www.twitter.com",
+            "https://www.instagram.com",
+            "https://www.wikipedia.org",
+            "https://www.amazon.com",
+            "https://www.microsoft.com",
+            "https://www.apple.com",
+            "https://www.netflix.com"
         ];
         
         var randomUrl = adUrls[Math.floor(Math.random() * adUrls.length)];
